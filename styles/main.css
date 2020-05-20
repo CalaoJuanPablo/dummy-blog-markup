@@ -1,0 +1,96 @@
+/* Global */
+:root {
+	/* colors */
+	--color-primary: #48CFAD;
+	--white: #ffffff;
+	--black: #000000;
+
+	/* fonts */
+	--mono: 'Roboto Mono', monospace;
+	--sans: 'Roboto', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: var(--sans);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Layout */
+.container {
+	width: calc(100vw - 40px);
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+/* Colors */
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+/* Typography */
+
+.text-center {
+	text-align: center;
+}
+
+/* Actions */
+
+.btn {
+	padding: 30px;
+	font-family: var(--mono);
+	font-weight: bold;
+	font-size: 34px;
+}
+
+.btn-primary {
+	background-color: var(--color-primary);
+	color: var(--black);
+}
+
+header {
+	width: 100%;	
+}
+
+header .social-links {
+	height: 100px;
+}
+
+header .social-links .icon::before {
+	font-size: 50px;
+	color: var(--white);
+}
+
+.logo {
+	height: 50px;
+}

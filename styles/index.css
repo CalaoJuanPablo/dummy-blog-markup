@@ -1,0 +1,31 @@
+main {
+	background-image: url('../assets/images/Cover.png');
+	background-size: cover;
+	background-position: top center;
+	height: calc(100vh - 100px);
+	min-height: 700px;
+	color: var(--white);
+	display: grid;
+	grid-template-rows: 150px 1fr;
+}
+
+main nav a:last-of-type {
+	font-size: 38px;
+	font-family: var(--mono);
+	text-decoration: underline;
+}
+
+main .main-hero {
+	padding-top: 120px;
+}
+
+main .main-hero h1 {
+	font-size: 74px;
+	font-family: var(--mono);
+	max-width: 1078px;
+	margin: 0 auto;
+}
+
+main .main-hero .action-container {
+	margin-top: 38px;
+}
