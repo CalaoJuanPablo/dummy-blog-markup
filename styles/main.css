@@ -91,6 +91,16 @@ header .social-links .icon::before {
 	color: var(--white);
 }
 
+header nav {
+	height: 180px;
+}
+
+header nav a:last-of-type {
+	font-size: 38px;
+	font-family: var(--mono);
+	text-decoration: underline;
+}
+
 .logo {
 	height: 50px;
 }
