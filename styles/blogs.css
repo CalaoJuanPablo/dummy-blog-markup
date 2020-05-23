@@ -1,0 +1,27 @@
+.featured-post {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.featured-post figure {
+	max-width: 900px;
+	margin-right: 60px;
+}
+
+.featured-post figure img {
+	width: 100%;
+}
+
+.featured-post .description {
+	padding: 60px 0;
+}
+
+.featured-post .description h1 {
+	font-size: 48px;
+	margin-bottom: 30px;
+}
+
+.featured-post .description p {
+	font-size: 21px;
+	margin-bottom: 60px;
+}

@@ -92,15 +92,19 @@ h1, h2, h3, h4, h5, h6 {
 /* Actions */
 
 .btn {
-	padding: 30px;
+	padding: 20px;
 	font-family: var(--mono);
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 .btn-primary {
 	background-color: var(--color-primary);
 	color: var(--black);
+}
+
+.btn-primary-outline {
+	border: 2px solid var(--color-primary);
 }
 
 header {
@@ -163,7 +167,7 @@ header nav a:last-of-type {
 
 footer .green-bar {
 	background-color: var(--color-primary);
-	height: 60px;
+	height: 30px;
 }
 
 footer .black-bar {
