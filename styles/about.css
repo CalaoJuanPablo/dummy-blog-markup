@@ -30,7 +30,7 @@
 
 .proyectos h2 {
 	text-align: center;
-	border-bottom: 1px solid #CCD1D9;
+	border-bottom: var(--title-border-bottom);
 	padding-bottom: 30px;
 	margin-bottom: 60px;
 }

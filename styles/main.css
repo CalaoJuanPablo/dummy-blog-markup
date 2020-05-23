@@ -10,6 +10,7 @@
 	/* fonts */
 	--mono: 'Roboto Mono', monospace;
 	--sans: 'Roboto', sans-serif;
+	--title-border-bottom: 1px solid #CCD1D9;
 }
 
 * {
@@ -127,10 +128,6 @@ header nav a:last-of-type {
 
 .logo {
 	width: 220px;
-}
-
-.hero {
-	background-color: var(--color-gray);
 }
 
 .contact-footer {

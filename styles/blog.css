@@ -1,0 +1,33 @@
+.feature-image .container {
+	background-image: url("../assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 60px;
+}
+
+.blogpost {
+	margin-bottom: 60px;
+}
+
+.blogpost main {
+	max-width: 730px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blogpost main h3 {
+	border-bottom: var(--title-border-bottom);
+	margin-bottom: 30px;
+}
+
+.blogpost main h1 {
+	font-size: 48px;
+	margin-bottom: 30px;
+}
+
+.blogpost main p {
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: 1.5;
+}
