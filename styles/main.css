@@ -2,6 +2,7 @@
 :root {
 	/* colors */
 	--color-primary: #48CFAD;
+	--color-gray: #E6E9ED;
 	--white: #ffffff;
 	--black: #000000;
 
@@ -56,6 +57,11 @@ a {
 	display: grid;
 }
 
+.column-2 {
+	grid-template-columns: 1fr 1fr;
+	column-gap: 60px;
+}
+
 .column-3 {
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 60px;
@@ -67,10 +73,14 @@ a {
 	background-color: var(--color-primary);
 }
 
+.bg-gray {
+	background-color: var(--color-gray);
+}
+
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto mono', monospace;
+	font-family: var(--mono);
 }
 
 .text-center {
@@ -119,5 +129,36 @@ header nav a:last-of-type {
 }
 
 .hero {
-	background-color: #E6E9ED;
+	background-color: var(--color-gray);
+}
+
+.contact-footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contact-footer .box {
+	display: grid;
+	grid-template-columns: 170px 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.contact-footer .box img {
+	width: 150px;
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+}
+
+.contact-footer .box a {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	font-size: 32px;
+	text-decoration: underline;
+	font-family: var(--mono);
+}
+
+.contact-footer .box p {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	font-size: 21px;
 }
