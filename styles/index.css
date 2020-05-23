@@ -1,7 +1,7 @@
 main {
 	background-image: url('../assets/images/Cover.png');
 	background-size: cover;
-	background-position: top center;
+	background-position: bottom center;
 	height: calc(100vh - 100px);
 	min-height: 700px;
 	color: var(--white);
@@ -10,7 +10,7 @@ main {
 }
 
 main nav a:last-of-type {
-	font-size: 38px;
+	font-size: 32px;
 	font-family: var(--mono);
 	text-decoration: underline;
 }

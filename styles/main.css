@@ -52,6 +52,15 @@ a {
 	align-items: center;
 }
 
+.grid {
+	display: grid;
+}
+
+.column-3 {
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 60px;
+}
+
 /* Colors */
 
 .bg-primary {
@@ -59,6 +68,10 @@ a {
 }
 
 /* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto mono', monospace;
+}
 
 .text-center {
 	text-align: center;
@@ -70,7 +83,7 @@ a {
 	padding: 30px;
 	font-family: var(--mono);
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 24px;
 }
 
 .btn-primary {
@@ -96,11 +109,15 @@ header nav {
 }
 
 header nav a:last-of-type {
-	font-size: 38px;
+	font-size: 32px;
 	font-family: var(--mono);
 	text-decoration: underline;
 }
 
 .logo {
-	height: 50px;
+	width: 220px;
+}
+
+.hero {
+	background-color: #E6E9ED;
 }
