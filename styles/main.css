@@ -3,6 +3,7 @@
 	/* colors */
 	--color-primary: #48CFAD;
 	--color-gray: #E6E9ED;
+	--color-dark-gray: #23282D;
 	--white: #ffffff;
 	--black: #000000;
 
@@ -161,4 +162,21 @@ header nav a:last-of-type {
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
 	font-size: 21px;
+}
+
+footer .green-bar {
+	background-color: var(--color-primary);
+	height: 60px;
+}
+
+footer .black-bar {
+	background-color: var(--color-dark-gray);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer p {
+	text-align: center;
+	color: var(--white);
+	font-family: var(--mono);
 }
