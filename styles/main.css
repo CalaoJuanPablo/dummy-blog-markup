@@ -188,4 +188,9 @@ footer p {
 	header.social-links .icon::before {
 		margin-left: 20px;
 	}
+
+	.navigation-header nav a img.logo {
+		width: 220px;
+		height: auto;
+	}
 }
