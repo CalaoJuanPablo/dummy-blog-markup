@@ -1,5 +1,5 @@
 .hero figure {
-	width: 525px;
+	width: 100%;
 }
 
 .hero figure img {
@@ -8,19 +8,19 @@
 
 .hero .container {
 	display: grid;
-	grid-template-columns: 525px 1fr;
-	column-gap: 40px;
+	grid-template-columns: 1fr;
+	gap: 20px;
 	padding-top: 60px;
 	padding-bottom: 60px;;
 }
 
 .hero .description h1 {
-	font-size: 60px;
-	margin-bottom: 30px;
+	font-size: 48px;
+	margin-bottom: 10px;
 }
 
 .hero .description p {
-	font-size: 21px;
+	font-size: 16px;
 }
 
 .proyectos {
@@ -38,4 +38,26 @@
 
 .proyectos .column p:last-of-type {
 	margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+	.hero .container {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.hero .container {
+		grid-template-columns: 525px 1fr;
+		column-gap: 40px;
+	}
+	
+	.hero .description h1 {
+		font-size: 60px;
+		margin-bottom: 30px;
+	}
+	
+	.hero .description p {
+		font-size: 21px;
+	}	
 }
