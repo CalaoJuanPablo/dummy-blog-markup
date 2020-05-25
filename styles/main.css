@@ -172,13 +172,9 @@ header nav a:last-of-type {
 	font-size: 21px;
 }
 
-footer .green-bar {
-	background-color: var(--color-primary);
-	height: 30px;
-}
-
-footer .black-bar {
+footer {
 	background-color: var(--color-dark-gray);
+	border-top: 30px solid var(--color-primary);
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
