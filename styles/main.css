@@ -75,10 +75,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Actions */
 
 .btn {
-	padding: 20px;
+	padding: 15px;
 	font-family: var(--mono);
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .btn-primary {

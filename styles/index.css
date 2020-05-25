@@ -3,24 +3,36 @@ main {
 	background-size: cover;
 	background-position: bottom center;
 	height: calc(100vh - 100px);
-	min-height: 700px;
+	min-height: 550px;
 	color: var(--white);
 	display: grid;
 	grid-template-rows: 150px 1fr;
 }
 
+main nav {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main nav a img.logo {
+	width: auto;
+	height: 32px;
+}
+
+main nav a:first-of-type {
+	display: flex;
+}
+
 main nav a:last-of-type {
-	font-size: 32px;
+	font-size: 24px;
 	font-family: var(--mono);
 	text-decoration: underline;
 }
 
-main .main-hero {
-	padding-top: 120px;
-}
-
 main .main-hero h1 {
-	font-size: 74px;
+	font-size: 36px;
 	font-family: var(--mono);
 	max-width: 1078px;
 	margin: 0 auto;
@@ -28,4 +40,25 @@ main .main-hero h1 {
 
 main .main-hero .action-container {
 	margin-top: 38px;
+}
+
+@media screen and (min-width: 600px) {
+	main nav a img.logo {
+		width: 220px;
+		height: auto;
+	}
+
+	main .main-hero {
+		padding-top: 120px;
+	}
+
+	main .main-hero h1 {
+		font-size: 52px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	main .main-hero h1 {
+		font-size: 68px;
+	}
 }
