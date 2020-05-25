@@ -4,8 +4,8 @@
 }
 
 .featured-post figure {
+	width: 100%;
 	max-width: 900px;
-	margin-right: 60px;
 }
 
 .featured-post figure img {
@@ -13,17 +13,17 @@
 }
 
 .featured-post .description {
-	padding: 60px 0;
+	padding-top: 30px;
 }
 
 .featured-post .description h1 {
-	font-size: 48px;
-	margin-bottom: 30px;
+	font-size: 36px;
+	margin-bottom: 20px;
 }
 
 .featured-post .description p {
-	font-size: 21px;
-	margin-bottom: 60px;
+	font-size: 16px;
+	margin-bottom: 50px;
 }
 
 .ultimos-blogposts {
@@ -52,4 +52,26 @@
 	font-size: 18px;
 	margin-bottom: 40px;
 	line-height: 1.5;
+}
+
+@media screen and (min-width: 600px) {
+	.featured-post .grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.featured-post .grid {
+		grid-template-columns: 800px 1fr;
+		gap: 40px;
+	}
+
+	.featured-post .description h1 {
+		font-size: 42px;
+	}
+
+	.featured-post .description p {
+		font-size: 18px;
+	}
 }
