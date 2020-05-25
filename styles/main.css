@@ -27,32 +27,8 @@ a {
 /* Layout */
 .container {
 	width: calc(100vw - 40px);
-	max-width: 1500px;
+	max-width: 1200px;
 	margin: 0 auto;
-}
-
-.flex {
-	display: flex;
-}
-
-.column {
-	flex-direction: column;
-}
-
-.justify-end {
-	justify-content: flex-end;
-}
-
-.justify-between {
-	justify-content: space-between;
-}
-
-.justify-center {
-	justify-content: center;
-}
-
-.align-center {
-	align-items: center;
 }
 
 .grid {
@@ -118,13 +94,22 @@ header {
 	width: 100%;	
 }
 
-header .social-links {
+header.social-links {
 	height: 100px;
+	display: flex;
+	align-items: center;
 }
 
-header .social-links .icon::before {
+header.social-links .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header.social-links .icon::before {
 	font-size: 50px;
 	color: var(--white);
+	margin: 0;
 }
 
 header nav {
@@ -183,4 +168,14 @@ footer p {
 	text-align: center;
 	color: var(--white);
 	font-family: var(--mono);
+}
+
+@media screen and (min-width: 600px) {
+	header.social-links .container {
+		justify-content: flex-end;
+	}
+
+	header.social-links .icon::before {
+		margin-left: 20px;
+	}
 }
