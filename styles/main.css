@@ -36,13 +36,13 @@ a {
 }
 
 .column-2 {
-	grid-template-columns: 1fr 1fr;
-	column-gap: 60px;
+	grid-template-columns: 1fr;
+	gap: 30px;
 }
 
 .column-3 {
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 60px;
+	grid-template-columns: 1fr;
+	gap: 30px;
 }
 
 /* Colors */
@@ -181,6 +181,14 @@ footer p {
 }
 
 @media screen and (min-width: 600px) {
+	.column-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.column-3 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
 	header.social-links .container {
 		justify-content: flex-end;
 	}

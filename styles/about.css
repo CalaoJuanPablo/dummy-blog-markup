@@ -29,11 +29,11 @@
 }
 
 .proyectos .column h3 {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .proyectos .column p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .proyectos .column p:last-of-type {
@@ -43,6 +43,14 @@
 @media screen and (min-width: 600px) {
 	.hero .container {
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.proyectos .column h3 {
+		margin-bottom: 20px;
+	}
+	
+	.proyectos .column p {
+		margin-bottom: 15px;
 	}
 }
 
