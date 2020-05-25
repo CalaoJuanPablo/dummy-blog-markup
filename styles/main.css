@@ -112,18 +112,28 @@ header.social-links .icon::before {
 	margin: 0;
 }
 
-header nav {
-	height: 180px;
+.navigation-header nav {
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-header nav a:last-of-type {
+.navigation-header nav a:last-of-type {
 	font-size: 32px;
 	font-family: var(--mono);
 	text-decoration: underline;
 }
 
-.logo {
-	width: 220px;
+.navigation-header nav a img.logo {
+	width: auto;
+	height: 32px;
+}
+
+.navigation-header nav a:last-of-type {
+	font-size: 24px;
+	font-family: var(--mono);
+	text-decoration: underline;
 }
 
 .contact-footer {
