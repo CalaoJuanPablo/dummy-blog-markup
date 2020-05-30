@@ -24,13 +24,13 @@ This project does not require any instalation since it is built with just HTML a
 
 ## Preview
 **Index**
-[](/app-screenshots/index.png)
+![](/app-screenshots/index.png)
 
 **Blogs**
-[](/app-screenshots/blogs.png)
+![](/app-screenshots/blogs.png)
 
 **Blog**
-[](/app-screenshots/blog.png)
+![](/app-screenshots/blog.png)
 
 **About**
-[](/app-screenshots/about.png)
+![](/app-screenshots/about.png)
