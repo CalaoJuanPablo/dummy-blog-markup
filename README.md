@@ -21,16 +21,3 @@ This project does not require any instalation since it is built with just HTML a
 ```npx serve```
 
 **IMPORTANT:** To know more about `npx`, [go to this site](https://www.bram.us/2017/07/15/introducing-npx-an-npm-package-runner/).
-
-## Preview
-**Index**
-![](/app-screenshots/index.png)
-
-**Blogs**
-![](/app-screenshots/blogs.png)
-
-**Blog**
-![](/app-screenshots/blog.png)
-
-**About**
-![](/app-screenshots/about.png)
